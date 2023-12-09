@@ -1,0 +1,72 @@
+.login-form {
+    background-image: url('https://wallpapercrafter.com/desktop1/639979-Diablo-Diablo-Immortal-Diablo-2-Diablo-3-Reaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.login-header img {
+    width: 300px;
+}
+
+.login-header h1 {
+    color: rgb(210, 19, 19);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+    font-size: 27pt;
+    margin-top: 40px;
+    text-shadow: 0.0em 0.0em 0.9em black;
+}
+
+.login_input {
+    font-size: 15pt;
+    border: 3px solid rgb(49, 46, 46);
+    background-color: rgba(255, 255, 255, 0.74);
+    border-radius: 1px;
+    color: black;
+    padding: 7px;
+    outline: none;
+    margin-bottom: 35px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.login_button {
+    background-color: rgb(210, 19, 19);
+    border-radius: 20px;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 150px;
+    transition: 1s;
+}
+
+.login_button:disabled {
+    background-color: gainsboro;
+    color: gray;
+}
+
+::placeholder {
+    text-align: center;
+    color: rgb(61, 61, 61);
+}
+
+@media screen and (max-width:400px) {
+    .login-form {
+        background-image: url('https://mfiles.alphacoders.com/973/973181.jpg');
+        background-size: cover;
+        background-repeat: repeat;
+    }
+}
